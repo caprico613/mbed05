@@ -15,7 +15,7 @@ void ISR1(){
 
 int main(){
 
-        button.rise(&ISR1);
+        button.rise(ISR1);
 
         while(1){
 
